@@ -34,10 +34,10 @@ public class Main {
     }
 
     private static List<String> palControl(String data) {
-        StringBuffer reverseKelime = new StringBuffer(data);
-        reverseKelime = reverseKelime.reverse();
-        if (reverseKelime.toString().equals(data)){
-            palindromicList.add(reverseKelime.toString());
+        StringBuffer reverseData = new StringBuffer(data);
+        reverseData = reverseData.reverse();
+        if (reverseData.toString().equals(data)){
+            palindromicList.add(reverseData.toString());
         }
 
         return palindromicList;
